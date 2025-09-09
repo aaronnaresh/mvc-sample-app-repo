@@ -1,0 +1,7 @@
+C:\Users\cloud\source\repos\MVCApplicatiobn\publish_output\MVCApplicatiobn.exe
+C:\Users\cloud\source\repos\MVCApplicatiobn\publish_output\appsettings.Development.json
+C:\Users\cloud\source\repos\MVCApplicatiobn\publish_output\appsettings.json
+C:\Users\cloud\source\repos\MVCApplicatiobn\publish_output\MVCApplicatiobn.dll
+C:\Users\cloud\source\repos\MVCApplicatiobn\publish_output\MVCApplicatiobn.deps.json
+C:\Users\cloud\source\repos\MVCApplicatiobn\publish_output\MVCApplicatiobn.runtimeconfig.json
+C:\Users\cloud\source\repos\MVCApplicatiobn\publish_output\MVCApplicatiobn.pdb

@@ -25,9 +25,9 @@ C:\Users\cloud\source\repos\MVCApplicatiobn\obj\Release\net8.0\staticwebassets.b
 C:\Users\cloud\source\repos\MVCApplicatiobn\obj\Release\net8.0\staticwebassets.build.json.cache
 C:\Users\cloud\source\repos\MVCApplicatiobn\obj\Release\net8.0\staticwebassets.development.json
 C:\Users\cloud\source\repos\MVCApplicatiobn\obj\Release\net8.0\staticwebassets.build.endpoints.json
-C:\Users\cloud\source\repos\MVCApplicatiobn\obj\Release\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\cloud\source\repos\MVCApplicatiobn\obj\Release\net8.0\MVCApplicatiobn.dll
 C:\Users\cloud\source\repos\MVCApplicatiobn\obj\Release\net8.0\refint\MVCApplicatiobn.dll
 C:\Users\cloud\source\repos\MVCApplicatiobn\obj\Release\net8.0\MVCApplicatiobn.pdb
 C:\Users\cloud\source\repos\MVCApplicatiobn\obj\Release\net8.0\MVCApplicatiobn.genruntimeconfig.cache
 C:\Users\cloud\source\repos\MVCApplicatiobn\obj\Release\net8.0\ref\MVCApplicatiobn.dll
+C:\Users\cloud\source\repos\MVCApplicatiobn\obj\Release\net8.0\MVCApplicatiobn.sourcelink.json
