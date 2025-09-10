@@ -7,15 +7,15 @@ phases:
   pre_build:
     commands:
       - echo Restore started on `date`
-      - dotnet restore mvc-sample-app/MVCApplicatiobn.csproj
+      - dotnet restore ./MVCApplicatiobn.csproj
   build:
     commands:
       - echo Building started on `date`
-      - dotnet build mvc-sample-app/MVCApplicatiobn.csproj
+      - dotnet build ./MVCApplicatiobn.csproj
   post_build:
     commands:
       - echo Publish started on `date`
-      - dotnet publish -c Release -o ./ mvc-sample-app/MVCApplicatiobn.csproj
+      - dotnet publish -c Release -o ./MVCApplicatiobn.csproj
 artifacts:
   files:
     - '**/*'
