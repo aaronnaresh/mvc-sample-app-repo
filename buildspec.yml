@@ -1,0 +1,19 @@
+﻿version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      dotnet: 8.0
+  build:
+    commands:
+      - echo "Building .NET 8 application..."
+      - dotnet restore
+      - dotnet publish -c Release -o ./publish_output
+  post_build:
+    commands:
+      - echo "Zipping published output..."
+      - cd publish_output
+      - zip -r ../app.zip .
+artifacts:
+  files:
+    - app.zip
