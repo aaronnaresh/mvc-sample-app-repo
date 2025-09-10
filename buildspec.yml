@@ -1,19 +1,21 @@
-﻿version: 0.2
+﻿version: 1.0
 
 phases:
   install:
     runtime-versions:
       dotnet: 8.0
+  pre_build:
+    commands:
+      - echo Restore started on `date`
+      - dotnet restore MVCApplicatiobn/MVCApplicatiobn.csproj
   build:
     commands:
-      - echo "Building .NET 8 application..."
-      - dotnet restore
-      - dotnet publish -c Release -o ./publish_output
+      - echo Building started on `date`
+      - dotnet build MVCApplicatiobn/MVCApplicatiobn.csproj
   post_build:
     commands:
-      - echo "Zipping published output..."
-      - cd publish_output
-      - zip -r ../app.zip .
+      - echo Publish started on `date`
+      - dotnet publish -c Release -o ./MVCApplicatiobn/MVCApplicatiobn.csproj
 artifacts:
   files:
-    - app.zip
+    - '**/*'
